@@ -4,16 +4,16 @@ class Avis{
  * @OA\Schema(
  * 		schema="Avis",
  * 		type="object",
- * 		description="Représente un avis",
+ * 		description="Représente un avis client",
  * 		@OA\Property(
- * 			property="AvisID",
+ * 			property="avisID",
  * 			type="integer",
  * 			description="Clé unique de l'avis"
  * 		),
  * 		@OA\Property(
  * 			property="avis",
  * 			type="string",
- * 			description="Avis du client"
+ * 			description="Avis du client sur le voyage"
  * 		),
  * 		@OA\Property(
  * 			property="voyageID",
@@ -27,18 +27,18 @@ class Avis{
  * 		)
  * ),
  *  @OA\Schema(
- * 		schema="Avis",
+ * 		schema="Aviss",
  * 		type="object",
- * 		description="Affichage d'un avis",
+ * 		description="Affichage d'un avis client",
  * 		@OA\Property(
- * 			property="AvisID",
+ * 			property="avisID",
  * 			type="integer",
  * 			description="Clé unique de l'avis"
  * 		),
  * 		@OA\Property(
  * 			property="avis",
  * 			type="string",
- * 			description="Avis du client"
+ * 			description="Avis du client sur le voyage"
  * 		),
  * 		@OA\Property(
  * 			property="voyageID",
@@ -48,7 +48,7 @@ class Avis{
  * 		@OA\Property(
  * 			property="clientID",
  * 			type="integer",
- * 			description="Identifiant de client"
+ * 			description="Identifiant du client"
  * 		),
  * 		@OA\Property(
  * 			property="voyage",
@@ -68,7 +68,7 @@ class Avis{
  * 			@OA\Property(
  * 				property="prenom",
  * 				type="string",
- * 				description="Prenom du client"
+ * 				description="Prénom du client"
  * 			),
  *          @OA\Property(
  * 				property="nom",
