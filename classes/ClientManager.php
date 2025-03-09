@@ -46,7 +46,7 @@ class ClientManager {
 		* 	),
 		* 	@OA\Response(
 		* 		response="405",
-		* 		escription="Méthode non autorisés"
+		* 		escription="Méthode non autorisée"
 		* 	),
 		* 	@OA\Response(
 		* 		response="400",
@@ -233,7 +233,7 @@ class ClientManager {
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="405",
-	 * 			description="Méthode non autorisés"
+	 * 			description="Méthode non autorisée"
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="400",
@@ -288,7 +288,7 @@ class ClientManager {
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="405",
-	 * 			description="Méthode non autorisés"
+	 * 			description="Méthode non autorisée"
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="400",
