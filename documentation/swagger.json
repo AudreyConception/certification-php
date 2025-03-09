@@ -265,7 +265,7 @@
                         "description": "Insérer les datas"
                     },
                     "405": {
-                        "description": "Méthode non autorisés"
+                        "description": "Méthode non autorisée"
                     },
                     "400": {
                         "description": "Tous les champs sont obligatoires"
@@ -312,7 +312,7 @@
                         "description": "Insérer les datas"
                     },
                     "405": {
-                        "description": "Méthode non autorisés"
+                        "description": "Méthode non autorisée"
                     },
                     "400": {
                         "description": "Tous les champs sont obligatoires"
@@ -371,7 +371,7 @@
                         "description": "Insérer les datas"
                     },
                     "405": {
-                        "description": "Méthode non autorisés"
+                        "description": "Méthode non autorisée"
                     },
                     "400": {
                         "description": "Tous les champs sont obligatoires"
@@ -430,7 +430,7 @@
                         "description": "Modifier les datas"
                     },
                     "405": {
-                        "description": "Méthode non autorisés"
+                        "description": "Méthode non autorisée"
                     },
                     "400": {
                         "description": "Tous les champs sont obligatoires"
@@ -483,7 +483,7 @@
                         "description": "Modifier les datas"
                     },
                     "405": {
-                        "description": "Méthode non autorisés"
+                        "description": "Méthode non autorisée"
                     },
                     "400": {
                         "description": "Tous les champs sont obligatoires"
@@ -542,7 +542,7 @@
                         "description": "Modifier les datas"
                     },
                     "405": {
-                        "description": "Méthode non autorisés"
+                        "description": "Méthode non autorisée"
                     },
                     "400": {
                         "description": "Tous les champs sont obligatoires"
@@ -583,7 +583,7 @@
                         "description": "Client supprimé"
                     },
                     "405": {
-                        "description": "Méthode non autorisés"
+                        "description": "Méthode non autorisée"
                     },
                     "400": {
                         "description": "Tous les champs sont obligatoires"
@@ -624,7 +624,7 @@
                         "description": "Voyage supprimé"
                     },
                     "405": {
-                        "description": "Méthode non autorisés"
+                        "description": "Méthode non autorisée"
                     },
                     "400": {
                         "description": "Tous les champs sont obligatoires"
@@ -665,7 +665,7 @@
                         "description": "Avis supprimé"
                     },
                     "405": {
-                        "description": "Méthode non autorisés"
+                        "description": "Méthode non autorisée"
                     },
                     "400": {
                         "description": "Tous les champs sont obligatoires"
