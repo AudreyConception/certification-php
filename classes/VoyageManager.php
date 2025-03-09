@@ -39,7 +39,7 @@ class VoyageManager {
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="405",
-	 * 			description="Méthode non autorisés"
+	 * 			description="Méthode non autorisée"
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="400",
@@ -213,7 +213,7 @@ class VoyageManager {
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="405",
-	 * 			description="Méthode non autorisés"
+	 * 			description="Méthode non autorisée"
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="400",
@@ -265,7 +265,7 @@ class VoyageManager {
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="405",
-	 * 			description="Méthode non autorisés"
+	 * 			description="Méthode non autorisée"
 	 * 		),
 	 * 		@OA\Response(
 	 * 			response="400",
