@@ -3,7 +3,6 @@
     "info": {
         "title": "API voyage. Documentation",
         "description": "Cette API permet aux tours-opérateurs de gérer les avis de leurs clients sur les voyages qu'ils proposent",
-        "termsOfService": "http://www.monsite.com/terms",
         "contact": {
             "email": "api.voyages@gmail.com"
         },
@@ -26,13 +25,16 @@
                     "Clients"
                 ],
                 "summary": "Afficher un client",
-                "operationId": "ef69d7107b01fabd2ae680513d42af90",
+                "operationId": "getClientById",
                 "parameters": [
                     {
                         "name": "clientID",
                         "in": "path",
                         "description": "<p>Paramètre passé en get.</p><p>Afin d'utiliser cette API de démo dans de bonnes conditions, nous vous suggérons d'entrer les identifiants 1 ou 2.</p>",
-                        "required": true
+                        "required": true,
+                         "schema": {
+                            "type": "integer"
+                        }
                     }
                 ],
                 "responses": {
@@ -62,13 +64,16 @@
                     "Voyages"
                 ],
                 "summary": "Afficher un voyage",
-                "operationId": "ef69d7107b01fabd2ae680513d42af90",
+                "operationId": "getVoyageById",
                 "parameters": [
                     {
                         "name": "voyageID",
                         "in": "path",
                         "description": "<p>Paramètre passé en get.</p><p>Afin d'utiliser cette API de démo dans de bonnes conditions, nous vous suggérons d'entrer les identifiants 1 ou 2.</p>",
-                        "required": true
+                        "required": true,
+                         "schema": {
+                            "type": "integer"
+                        }
                     }
                 ],
                 "responses": {
@@ -98,13 +103,16 @@
                     "Avis"
                 ],
                 "summary": "Afficher un avis d'un client",
-                "operationId": "ef69d7107b01fabd2ae680513d42af90",
+                "operationId": "getAvisById",
                 "parameters": [
                     {
                         "name": "avisID",
                         "in": "path",
                         "description": "<p>Paramètre passé en get.</p><p> Afin d'utiliser cette API de démo dans de bonnes conditions, nous vous suggérons d'entrer les identifiants 1 ou 2.</p>",
-                        "required": true
+                        "required": true,
+                         "schema": {
+                            "type": "integer"
+                        }
                     }
                 ],
                 "responses": {
@@ -134,7 +142,7 @@
                     "Clients"
                 ],
                 "summary": "Afficher tous les clients",
-                "operationId": "fdf60636bd51bdc015bfd6ca87869cae",
+                "operationId": "getAllClient",
                 "responses": {
                     "200": {
                         "description": "Affichage des résultats",
@@ -165,7 +173,7 @@
                     "Voyages"
                 ],
                 "summary": "Afficher tous les voyages",
-                "operationId": "fdf60636bd51bdc015bfd6ca87869cae",
+                "operationId": "getAllVoyage",
                 "responses": {
                     "200": {
                         "description": "Affichage des résultats",
@@ -196,7 +204,7 @@
                     "Avis"
                 ],
                 "summary": "Afficher tous les avis",
-                "operationId": "fdf60636bd51bdc015bfd6ca87869cae",
+                "operationId": "getAllAvis",
                 "responses": {
                     "200": {
                         "description": "Affichage des résultats. Il est à préciser que ces résultats vous donneront également accès aux informations liées au client ainsi qu'au voyage grâce à leur clé respective: clientID & voyageID.",
@@ -227,7 +235,7 @@
                     "Clients"
                 ],
                 "summary": "Insérer un client",
-                "operationId": "972075629eb0552e4d41ea07b52f9b61",
+                "operationId": "postClient",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -280,7 +288,7 @@
                     "Voyages"
                 ],
                 "summary": "Insérer un voyage",
-                "operationId": "972075629eb0552e4d41ea07b52f9b61",
+                "operationId": "postVoyage",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -327,7 +335,7 @@
                     "Avis"
                 ],
                 "summary": "Insérer un avis",
-                "operationId": "972075629eb0552e4d41ea07b52f9b61",
+                "operationId": "postAvis",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -386,7 +394,7 @@
                     "Clients"
                 ],
                 "summary": "Modifier un client",
-                "operationId": "4dff96f43ba2f35940eda5e86e396585",
+                "operationId": "putClient",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -445,7 +453,7 @@
                     "Voyages"
                 ],
                 "summary": "Modifier un voyage",
-                "operationId": "4dff96f43ba2f35940eda5e86e396585",
+                "operationId": "putVoyage",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -498,7 +506,7 @@
                     "Avis"
                 ],
                 "summary": "Modifier un avis",
-                "operationId": "4dff96f43ba2f35940eda5e86e396585",
+                "operationId": "putAvis",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -557,7 +565,7 @@
                     "Clients"
                 ],
                 "summary": "Supprimer un client",
-                "operationId": "4fec1fa38d066e259670c27823402cf4",
+                "operationId": "deleteClient",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -598,7 +606,7 @@
                     "Voyages"
                 ],
                 "summary": "Supprimer un voyage",
-                "operationId": "4fec1fa38d066e259670c27823402cf4",
+                "operationId": "deleteVoyage",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -639,7 +647,7 @@
                     "Avis"
                 ],
                 "summary": "Supprimer un avis",
-                "operationId": "4fec1fa38d066e259670c27823402cf4",
+                "operationId": "deleteAvis",
                 "requestBody": {
                     "required": true,
                     "content": {
