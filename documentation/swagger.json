@@ -207,7 +207,6 @@
             }
         },
         
-        
         "/deleteAvis": {
             "delete": {
                 "tags": [
@@ -642,7 +641,7 @@
             }
         },
 
-    "/deleteVoyage": {
+        "/deleteVoyage": {
             "delete": {
                 "tags": [
                     "Voyages"
